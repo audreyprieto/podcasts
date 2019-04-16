@@ -1,0 +1,28 @@
+
+img{
+    width:200px;
+}
+img:hover{
+    opacity:0;
+}
+img:before{
+    background-url:(https://serialpodcast.org/sites/all/modules/custom/serial/img/serial-itunes-logo.png);
+}
+.podcast{
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    padding-top:20px;
+    vertical-align:top;
+    border:1px solid red;
+}
+li{
+    padding-bottom:10px;
+}
+
+@media only screen and (max-width:480px){
+.podcast{
+    width:100%;
+}
+}
